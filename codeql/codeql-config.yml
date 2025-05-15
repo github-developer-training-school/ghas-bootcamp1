@@ -2,3 +2,7 @@ name: "My CodeQL Config"
 
 queries:
   - uses: ./custom-queries/code-scanning.qls
+
+
+paths-ignore:
+  - '**/test/**'
